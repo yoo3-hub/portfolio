@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KuzeKyomiPortfolio</title>
+    <link rel="stylesheet" href="https://unpkg.com/reset-css/reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="header">
+        <div class="header_text">
+        <h1>Welcome to My Page!</h1>
+        <p>Kuze Kyomi</p>
+        </div>
+    
+    <nav class="page-nav">
+        <ul>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="gallery.html">GALLERY</a></li>
+        </ul>
+    </nav>
+    </header>
+    <div class="hero">
+        <img src="img/top1280.jpg" alt="トップ画像">
+    </div>
+
+    <footer>
+        <p>&copy;KuzeKyomi Portfolio</p>
+        
+    </footer>
+     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+     <script>
+    $('head').append(
+     '<style>body{display:none;}'
+     );
+    $(window).on("load", function() {
+    $('body').fadeIn("slow");
+    });
+     </script>
+</body>
+</html>

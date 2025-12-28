@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KuzeKyomiPortfolio</title>
+    <link rel="stylesheet" href="https://unpkg.com/reset-css/reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header id="common_header" class="wrapper">
+    <h1 class="title">ABOUT</h1>
+    <div class="common_text">
+            <p>コツコツと積み重ねることを大切にし、計画的に制作を進めるWEBコーダーです。
+                <br>
+                細かなミスにも気づける点と、状況に応じて柔軟に対応できることが強みです。
+                <br>
+                コミュニケーションを取りながら、丁寧なサイト制作を心がけています
+            </p>     
+    </div> 
+</header>
+<main>
+       <section class="profile wrapper" >
+            <h2 class="sec-title">Profile</h2>
+            <dl>
+                <dt>氏名</dt>
+                <dd>久世京美</dd>
+                <dt>生年月日</dt>
+                <dd>1992年7月2日</dd>
+                <dt>血液型</dt>
+                <dd>AB型</dd>
+                <dt>出身地</dt>
+                <dd>愛知県</dd>
+            </dl>
+            <div>
+                <img src="" alt="">
+            </div>
+
+
+        </section>
+        <section class="career wrapper" >
+            <div class="career-title">
+            <h2 class="sec-title">Career</h2>
+            </div>
+            <div class="carrer_img">
+            <img src="img/carrer.jpg" alt="キャリアの画像">
+            </div>
+            <ul class="timeline">
+                <li>
+                 <p class="timeline-date">2015年</p>
+                 <div class="timeline-content">
+                 <h3>医療法人大里会大里デンタルクリニック</h3>
+                 <p>受付、会計、電話対応 ・カルテ作成、管理 ・薬剤、診療材料の在庫管理 ・医師の診療補助をしていました。 
+                    200 名程の患者様を 1 日に対応するために院内の受付の数は 3 つ、診療チェアは 16 台を設置した規模の大
+                    きい歯科医院でした。 
+                    働く上で大切なのは連携が上手くとれるチームワーク、
+                    個々のコミュニケーション能力である、ということをこの医院で学びました。 
+                 </p>
+                </div>
+                </li>
+            </ul>
+            <ul class="timeline">
+                <li>
+                 <p class="timeline-date">2018年</p>
+                 <div class="timeline-content">
+                 <h3>㈱UACJ</h3>
+                 <p>アルミの製造工場にて 200 名程の工場勤務者の勤怠管理等をしていました。 
+                    毎月の勤怠チェック、入退職者や福利厚生の手続き、年末調整などです。 
+                    他にもデータ入力や庶務全般をしていました。
+                 </p>
+                </div>
+                </li>
+            </ul>
+            <ul class="timeline">
+                <li>
+                 <p class="timeline-date">2021年</p>
+                 <div class="timeline-content">
+                 <h3>㈱ラッシュ・インターナショナル</h3>
+                 <p>クライアント企業の SNS アカウントの運用代行や、企業 Web サイトの運用サポートを行っている会社で
+                    下記のような業務に従事していました。
+                    <br>
+                    ・クライアント企業のSNS運用代行 
+                    <br>
+                    ⇒投稿内容の作成、投稿文の誤字脱字チェック、投稿スケジュールの管理 
+                   <br>
+                   ・企業Webサイトの運用サポート 
+                   <br>
+                   ⇒テキスト、画像差し替え、コラムの文章作成 
+                   <br>
+                   簡単なWordPressでの更新作業 
+                  <br>
+                  ・社内ニュースレターの製作進行、スケジュール管理
+                 </p>
+                </div>
+                </li>
+            </ul>
+            <ul class="timeline">
+                <li>
+                 <p class="timeline-date">2024年</p>
+                 <div class="timeline-content">
+                 <h3>㈱コメ兵</h3>
+                 <p>現在、パート勤務にて経理事務をしており日々の入出金の管理や請求書の作成等を行っております。 
+                    <br>
+                    ・仕訳、伝票入力 
+                    <br>
+                    ・帳簿管理 
+                    <br>
+                    ・請求書対応 
+                    <br>
+                    ・売掛金、買掛金の管理
+                 </p>
+                </div>
+                </li>
+            </ul>
+
+        </section>
+        <section class="licenses wrapper">
+            <h2 class="sec-title">Licenses</h2>
+            <div class="licenses_img">
+            <img src="img/licenses.jpg" alt="資格の画像">
+            </div>
+            <ul>
+                <li>日商簿記2級</li>
+                <li>秘書技能検定2級</li>
+                <li>第一種普通自動車免許</li>
+            </ul>
+
+
+        </section>
+        <section>
+
+        </section>
+</main>
+<footer>
+    <p>&copy;KuzeKyomi Portfolio</p>    
+</footer>
+<a href="index.html" class="home-btn">
+  <span class="arrow"></span>
+  <span class="text">HOME</span>
+  
+</a>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+     <script>
+    $('head').append(
+     '<style>body{display:none;}'
+     );
+    $(window).on("load", function() {
+    $('body').fadeIn("slow");
+    });
+  </script>
+</body>
+</html>
